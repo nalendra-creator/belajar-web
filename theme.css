@@ -1,0 +1,101 @@
+html,body {
+    font-family: "Inter", Arial;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+.container1 {
+    display: flex;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation img{
+    width: 48px;
+    height: 48px;
+}
+
+.navigation a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #737373;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    margin-right: 45px;
+}
+.navigation a:hover{
+    color: #5B20C7;
+}
+a.button {
+    background-color: #5B20C7;
+    color: #fff;
+    border-radius: 8px;
+    padding: 4px 24px;
+    text-decoration: none;
+}
+.button2 {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #5B20C7;
+    border-radius: 4px;
+    padding: 4px 20px;
+    width: fit-content;
+    margin: 3px auto;
+}
+.judul {
+    font-size: 50px;
+    max-width: 80%;
+    font-style: bol;
+    color: #342947;
+    margin-bottom: 20px;
+}
+span {
+    color: #5B20C7;
+}
+.caption {
+    text-align: start;
+    width: 500px;
+    margin-bottom: 20px;
+    color: rgb(88, 79, 103);
+}
+section {
+    display: flex;
+    margin: 100px 20%;
+}
+.pict {
+    position: relative;
+    right: 0%;
+    top: 0%;
+    z-index: 1;
+    width: 400px;
+}
+.pict2 {
+    position: absolute;
+    bottom: 30%;
+}
+
+.block {
+    position: relative;
+    z-index: 1;
+}
+
+.pt1 {
+   position: absolute;
+    top: 25%;
+    bottom: 0%;
+    left: 0%;
+}
